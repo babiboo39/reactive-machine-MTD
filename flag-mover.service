@@ -1,0 +1,7 @@
+[Unit]
+Description=To move the flag automatically
+[Service]
+Type=simple
+ExecStart=/path/to/moverRunner.sh &
+[Install]
+WantedBy=multi-user.target
